@@ -1,15 +1,1 @@
 
-yyyyyyyyyyyyyyyyyyyyydmmddhhyyyyyyyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyyyyyhNMMMMMMMMMNmdyyyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyyyymMMMMMMNNMMMMMMmyyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyydMMMMo`..  .:/yMMMmyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyydMMMm          oMMMNyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyyNMMMm-/os/`/ss:.hMMMysssssyyyyyyyyy
-yyyyyyyyyyyyyyymMMN .-oo` ./:` /MMdsssssssyyyyyyyy
-yyyyyyyyyyyyyyyyyNN.    :`-    oNmyssssssssyyyyyyy
-yyyyyyyyyyyyyyyyyyNm. -odmd+- .Nmysssssssssyyyyyyy
-yyyyyyyyyyyyyyyyyyhMmdMNhhhMMdNMdsssssssssyyyyyyyy
-yyyyyyyyyyyyyyyyyyyNMMMMMMMMMMMNdssssssssyyyyyyyyy
-yyyyyyyyyyyyyyyyyyyhMMMMMMMMMMMhyyyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyyyyyyyhNMMMMMMMMdyyyyyyyyyyyyyyyyyyy
-yyyyyyyyyyyyyyyyyyyyyyhyhyyNdyyyyyyyyyyyyyyyyyyyyy
