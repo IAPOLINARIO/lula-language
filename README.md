@@ -57,7 +57,6 @@ You can do usual arithmetic operations against numbers, such as `+`, `-`, `*` an
 >> pt a = 10;
 >> pt b = a * 2;
 >> (a + b) / 2 - 3;
-12
 >> pt c = 2.5;
 >> b + c
 22.5
