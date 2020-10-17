@@ -12,10 +12,11 @@ var keywords = map[string]TokenType{
 	"pt":          PT,
 }
 
-func LookupIdent(ident string) TokenType {
-	if tok, ok := keywords[ident]; ok {
-		return tok
+func ProcuraIdentificador(identificador string) TokenType {
+	if token, ok := keywords[identificador]; ok {
+		return token
 	}
+
 	return IDENTIFICADOR
 }
 
