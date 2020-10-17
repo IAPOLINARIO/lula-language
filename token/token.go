@@ -7,13 +7,25 @@ type Token struct {
 	Literal string
 }
 
+var keywords = map[string]TokenType{
+	"companheiro": COMPANHEIRO,
+	"pt":          PT,
+}
+
+func LookupIdent(ident string) TokenType {
+	if tok, ok := keywords[ident]; ok {
+		return tok
+	}
+	return IDENTIFICADOR
+}
+
 const (
-	NAO_PODE = "ILLEGAL"
-	TERMINOU = "EOF"
+	NAO_PODE = "NAO PODE"
+	TERMINOU = "TERMINOU"
 
 	//Identifier and literals
-	IDENT = "IDENTIFICADOR"
-	INT   = "INT"
+	IDENTIFICADOR = "IDENTIFICADOR"
+	INT           = "INT"
 
 	//Operators
 	ASSIGN = "="
@@ -29,6 +41,6 @@ const (
 	RBRACE = "}"
 
 	//Keywords
-	FUNCTION = "FUNCTION"
-	PT       = "LET"
+	COMPANHEIRO = "COMPANHEIRO"
+	PT          = "pt"
 )
