@@ -106,4 +106,5 @@ You can build strings using a pair of double quotes `""`. Strings are immutable 
 Hello John!
 ```
 
-* Needless to say, but this is just a joke and a way I found to learn GO in a fun way. Don't take it serious, because I don't ;) *
+### Disclaimer
+Needless to say, but this is just a joke and a way I found to learn GO in a fun way. Don't take it serious, because I don't ;) 
