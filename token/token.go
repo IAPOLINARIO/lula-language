@@ -10,6 +10,11 @@ type Token struct {
 var keywords = map[string]TokenType{
 	"companheiro": COMPANHEIRO,
 	"pt":          PT,
+	"verdade":     VERDADE,
+	"mentira":     MENTIRA,
+	"se":          SE,
+	"senao":       SENAO,
+	"devorve":     DEVORVE,
 }
 
 func ProcuraIdentificador(identificador string) TokenType {
@@ -37,6 +42,8 @@ const (
 	SLASH    = "/"
 	LT       = "<"
 	GT       = ">"
+	EQ       = "=="
+	NOT_EQ   = "!="
 
 	//Delimiters
 	COMMA     = ","
@@ -50,4 +57,10 @@ const (
 	//Keywords
 	COMPANHEIRO = "COMPANHEIRO"
 	PT          = "pt"
+
+	VERDADE = "VERDADE"
+	MENTIRA = "MENTIRA"
+	SE      = "SE"
+	SENAO   = "SENAO"
+	DEVORVE = "DEVORVE"
 )
