@@ -38,7 +38,7 @@ $ $GOPATH/bin/lula-language script.lula
 
 ### Variable bindings and number types
 
-You can define variables using `let` keyword. Supported number types are integers and floating-point numbers.
+You can define variables using `pt` keyword. Supported number types are integers and floating-point numbers.
 
 ```sh
 >> pt a = 1;
