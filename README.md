@@ -1,6 +1,6 @@
 # Lula Language
 
-![lula_language_logo](logo.jpeg)
+![lula_language_logo](logo.jpg)
 
 [sarcasm]
 
