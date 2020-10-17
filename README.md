@@ -1,12 +1,12 @@
 # Lula Language
 
-[<sarcasm>]
+<sarcasm>
 Lula programming language was created in order to provide the easiest, faster and a reliable way for developers to create their beloved applications. You will never get disappointed with Lula, I can assure you that. 
 If you are tired of all the regular programming languages out there, come and join the LULA community and let's spread the knowledge among those who need. Knowledge must be free and reach all, mainly those in need. 
   
 PS - Lula is still being developed, so most of the features bellow are not ready yet. If you want to keep up to date with Lula, just star the project. 
 
-[<sarcasm />]
+<sarcasm />
 
 ## Usage
 
