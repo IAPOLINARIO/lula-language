@@ -1,5 +1,7 @@
 # Lula Language
 
+![lula_language_logo](logo.jpg)
+
 [sarcasm]
 
 Lula programming language was created in order to provide the easiest, faster and a reliable way for developers to create their beloved applications. You will never get disappointed with Lula, I can assure you that. 
@@ -36,7 +38,7 @@ $ $GOPATH/bin/lula-language script.lula
 
 ### Variable bindings and number types
 
-You can define variables using `let` keyword. Supported number types are integers and floating-point numbers.
+You can define variables using `pt` keyword. Supported number types are integers and floating-point numbers.
 
 ```sh
 >> pt a = 1;
@@ -103,3 +105,6 @@ You can build strings using a pair of double quotes `""`. Strings are immutable 
 >> hello("John");
 Hello John!
 ```
+
+### Disclaimer
+Needless to say, but this is just a joke and a way I found to learn GO in a fun way. Don't take it serious, because I don't ;) 
