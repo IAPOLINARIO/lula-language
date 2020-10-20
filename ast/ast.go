@@ -44,3 +44,11 @@ type Identifier struct {
 
 func (i *Identifier) expressionNode()      {}
 func (i *Identifier) TokenLiteral() string { return i.Token.Literal }
+
+type DevorveStatement struct {
+	Token        token.Token // the 'devorve' token
+	DevorveValue Expression
+}
+
+func (rs *DevorveStatement) statementNode()       {}
+func (rs *DevorveStatement) TokenLiteral() string { return rs.Token.Literal }

@@ -17,6 +17,7 @@ func TestLetStatements(t *testing.T) {
 	p := New(l)
 
 	program := p.ParseProgram()
+	checkParserErrors(t, p)
 
 	if program == nil {
 		t.Fatalf("ParseProgram() returned nil")
@@ -41,6 +42,19 @@ func TestLetStatements(t *testing.T) {
 		}
 	}
 }
+
+func checkParserErrors(t *testing.T, p *Parser) {
+	errors := p.Errors()
+	if len(errors) == 0 {
+		return
+	}
+	t.Errorf("parser has %d errors", len(errors))
+	for _, msg := range errors {
+		t.Errorf("parser error: %q", msg)
+	}
+	t.FailNow()
+}
+
 func testLetStatement(t *testing.T, s ast.Statement, name string) bool {
 	if s.TokenLiteral() != "pt" {
 		t.Errorf("s.TokenLiteral not 'pt'. got=%q", s.TokenLiteral())
@@ -60,4 +74,31 @@ func testLetStatement(t *testing.T, s ast.Statement, name string) bool {
 		return false
 	}
 	return true
+}
+
+func TestReturnStatements(t *testing.T) {
+	input := `
+	devorve 5;
+	devorve 10;
+	devorve 993322;
+	`
+	l := lexer.New(input)
+	p := New(l)
+	program := p.ParseProgram()
+	checkParserErrors(t, p)
+	if len(program.Statements) != 3 {
+		t.Fatalf("program.Statements does not contain 3 statements. got=%d",
+			len(program.Statements))
+	}
+	for _, stmt := range program.Statements {
+		devorveStmt, ok := stmt.(*ast.DevorveStatement)
+		if !ok {
+			t.Errorf("stmt not *ast.devorveStatement. got=%T", stmt)
+			continue
+		}
+		if devorveStmt.TokenLiteral() != "devorve" {
+			t.Errorf("devorveStmt.TokenLiteral not 'devorve', got %q",
+				devorveStmt.TokenLiteral())
+		}
+	}
 }
